@@ -6,9 +6,36 @@ body {
       display: flex;
       height:70px; 
     }
-    secondary-block {
+    secondery-block {
         color:rgb(4,117,186);
         background-color:rgb(4,117,186)
         
+  nav h2 {
+      margin: 0;
+      padding-top: 20;
+      padding-right:0;
+      padding-left:15;
+      padding-bottom:20
+    }
+ 
+    a {
+      color: rgb(255,255,255);
+    }
+    nav ul {
+      display: flex;
+      margin:0;
+      list-style: none;
+      padding:24px;
+    }
+    nav li {
+      margin-left:15px;
+    }
+header {
+  text-aligne: center;
+  
 
+
+
+
+      
     

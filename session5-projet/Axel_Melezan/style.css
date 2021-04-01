@@ -1,4 +1,4 @@
-body {
+libody {
     font-family : Arial;
     margin: 0;
 }
@@ -8,7 +8,7 @@ nav {
 }
 .secondary-block {
     color: white;
-    background-color: rgb(4,117,186);
+    background-color: rgb(186, 4, 4);
 }
 a{
     color: white;
@@ -24,5 +24,39 @@ nav ul{
     list-style:none; 
 }
 nav li{
-    padding-left:15px ;
+    margin-left:15px ;
 }
+section{
+    padding:40px;
+}
+#xp ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+#xp li{
+    margin-bottom:10px;
+}
+#xp aside{
+    float:right;
+}
+#education aside{
+    float:right;
+}
+#education li{
+    list-style:none;
+}
+footer{
+    padding: 40px;
+}
+footer ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.links {
+    margin-bottom:25px;
+    display: inline-block;
+    width: 390px;
+}
+

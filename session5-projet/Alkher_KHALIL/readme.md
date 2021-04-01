@@ -140,7 +140,7 @@ Dans `index.html` :
 
 ## Étape 4 - Liens de navigation interne
 
-**But de l'étape :** Créer des ancres qui permettront aux visiteurs de se déplacer instantanément vers les sections de leur choix.
+**But de l'étape :** Créer des ancres qui permettront aux visiteurs de se déplacer instantanément vers les secions de leur choix.
 
 Dans le fichier `index.html`, à l'intérieur de l'élément `<body>` :
 
@@ -452,7 +452,7 @@ Avant de passer à l'étape suivante, vérifiez que la page ressemble à l'image
       </ul>
     </div>
     <div>
-      <aside>2016-2018</aside>
+     <aside>2016-2018</aside>
       <h4>Bénévole</h4>
       <ul>
         <li>Création de sites web</li>
