@@ -66,11 +66,12 @@ nav li{
   padding: 20px;
 }
 
-v
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
-
+nav h2 {
+  padding: 15px;
+}
 
 
 /*
@@ -79,14 +80,18 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 
 Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
 */
-
+a {
+  color: black;
+}
 
 
 /*
 Écrire une règle pour que les images aient une largeur égale à `300` pixels.
 Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
 */
-
+img {
+  wi: flex;
+}
 
 
 /*
