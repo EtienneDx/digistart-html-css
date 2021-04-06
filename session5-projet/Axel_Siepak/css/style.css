@@ -15,7 +15,7 @@ nav {
 
 nav h2 {
     margin: 0px;
-    padding; 20px 0 20px 15px;
+    padding: 20px 0 20px 15px;
 }
 
 nav ul {
@@ -31,16 +31,59 @@ nav li {
 
 header {
     text-align: center;
-    margin: 40px;
+    padding: 40px;
 }
 
 content {
     max-width: 800px;
     margin: 0 auto;
 }
+
 header img {
   width: 150px;
   border-radius: 75px;
   box-shadow: 3px 3px 6px rgb(170, 170, 170);
+}
+
+header h2 {
+    color: rgb(4, 117, 186);
+}
+
+header a {
+    width: 150px;
+    border-radius: 75px;
+    box-shadow: 3px 3px 6px rgb(170, 170, 170);
+}
+
+section {
+    padding: 40px;
+}
+ 
+#xp ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#xp li {
+    margin-bottom: 10px;
+}
+
+#xp aside {
+    float: right;
+}
+
+#education ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+#education li {
+    margin-bottom: 10px;
+}
+
+#education aside {
+    float: right;
 }
 

@@ -10,7 +10,7 @@ body {
         color:rgb(4,117,186);
         background-color:rgb(4,117,186)
         
-  nav h2 {
+  nav h2{
       margin: 0;
       padding-top: 20;
       padding-right:0;
@@ -30,9 +30,26 @@ body {
     nav li {
       margin-left:15px;
     }
-header {
-  text-aligne: center;
-  
+    header {
+      text-align: center;
+      padding: 40px;
+    }
+    
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    header h2 {
+      color: rgb(4, 117, 186);
+    }
+    
+    header img {
+      width: 150px;
+      border-radius: 75px;
+      box-shadow: 3px 3px 6px rgb(170, 170, 170);
+    }
+    ```
 
 
 

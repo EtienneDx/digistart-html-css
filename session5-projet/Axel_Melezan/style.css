@@ -1,4 +1,4 @@
-libody {
+body {
     font-family : Arial;
     margin: 0;
 }
@@ -59,4 +59,19 @@ footer ul {
     display: inline-block;
     width: 390px;
 }
-
+header{
+    text-align:center ;
+    padding:40px;
+}
+content{
+    max-width:800px;
+    margin:0 auto;
+}
+header h2{
+    color: rgb(255, 0, 0)        
+}
+header img{
+    width:150px;
+    border-radius:75px;
+    box-shadow:3px 3px 6px rgb(170, 170, 170)
+}
