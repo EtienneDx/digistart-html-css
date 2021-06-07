@@ -9,7 +9,7 @@
 - `index.html`
 
 ## Instructions
-
+<H1></1>
 - Ouvrir le fichier `index.html`
 - Repérer les instructions de l'exercice dans les commentaires `<!-- TODO: [...] -->`
 - Les instructions commencent toujours par `TODO:`
