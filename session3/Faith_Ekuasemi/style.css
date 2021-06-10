@@ -1,0 +1,20 @@
+.contenu-mixte {
+    text-align: center;
+}
+
+.contenu-mixte {
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#section-1 {
+    color: blue;
+}
+
+#section-2 {
+    color: orange
+}
+
+#section-3 {
+    color: purple
+}

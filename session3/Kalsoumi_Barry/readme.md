@@ -29,6 +29,8 @@ Ajoutez le code ci-dessous dans `style.css` pour vérifier que tout fonctionne b
 
 ![Résultat de l'exercice 1](./resultats/resultat1.png)
 
+
+
 ## Exercice 2 : Les sélecteurs de type
 
 **Rappel: Vérifiez le résultat de chaque règle en rechargeant votre page dans le navigateur web.**

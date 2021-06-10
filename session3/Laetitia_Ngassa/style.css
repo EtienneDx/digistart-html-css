@@ -1,0 +1,20 @@
+div {
+    background-color: grey;
+}
+
+p {
+    color: black;
+}
+
+img {
+    border: 4px solid;
+}
+
+.contenu-mixte {
+    text-align: center;
+}
+
+.contenu-texte {
+    font-family: Arial;
+    font-size: 18px;
+}
