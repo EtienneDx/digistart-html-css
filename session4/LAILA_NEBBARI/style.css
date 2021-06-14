@@ -2,15 +2,27 @@
 Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 */
 
+body {
+    margin: 0px;
+}
+
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
 */
 
+section {
+    padding: 30px;
+}
+
 
 /*
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 */
+
+h3 {
+    text-align: center;
+}
 
 
 /*
@@ -19,6 +31,13 @@
   - Des marges extérieures égales à `20` pixels.
 */
 
+h2 {
+    padding: 0px;
+}
+
+h2 {
+    margin: 20px;
+}
 
 
 /* 
@@ -28,6 +47,11 @@
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 */
 
+ul {
+    margin: 20px;
+    margin: 0px;
+    list-style: none;
+}
 
 
 /*
@@ -40,7 +64,6 @@ aux éléments <nav>` et `<ul>` dans la page html.
 */
 
 
-
 /*
 - Écrire les règles suivantes pour les éléments `<li>` enfants de l'élément `<nav>`:
   - Écrire une règle pour ajouter une marge extérieure de `15` pixels **à gauche**
@@ -48,11 +71,9 @@ aux éléments <nav>` et `<ul>` dans la page html.
 */
 
 
-
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
-
 
 
 /*
@@ -63,12 +84,10 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 */
 
 
-
 /*
 Écrire une règle pour que les images aient une largeur égale à `300` pixels.
 Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
 */
-
 
 
 /*
@@ -78,14 +97,16 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 
 /*             BONUS !!                   */
 
+
 /*
 Écrire les règles nécessaires pour aligner au centre les paragraphes et les images.
 Une façon de centrer les images est de les afficher en block:
+
+
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 */
-
 
 
 /*
@@ -93,5 +114,4 @@ Une façon de centrer les images est de les afficher en block:
 Rechercher l'attribut "text-decoration"
 */
 
-
-
+0

@@ -2,15 +2,27 @@
 Écrire une règle pour que l'élément `<body>` ait des marges extérieures (`margin`) de `0` pixel.
 */
 
+body {
+    margin: 0px;
+}
+
 
 /*
 Écrire une règle pour que les éléments `<section>` aient des marges intérieures (`padding`) de `30` pixels.
 */
 
+section {
+    padding: 30px;
+}
+
 
 /*
 Écrire une règle pour que les éléments `<h3>` soient alignés horizontalement avec le centre du document, voir l'attribut "text-align".
 */
+
+h3 {
+    text-align: center;
+}
 
 
 /*
@@ -19,6 +31,10 @@
   - Des marges extérieures égales à `20` pixels.
 */
 
+nav h2 {
+    margin: 20px;
+    padding: 0px;
+}
 
 
 /* 
@@ -28,6 +44,10 @@
   - Enlever les puces sur chaque ligne avec la propriété `list-style`.
 */
 
+nav ul {
+    padding: 20px;
+    margin: 0px;
+}
 
 
 /*
@@ -39,6 +59,9 @@ en ligne malgrés leur affichage de type `block`.
 aux éléments <nav>` et `<ul>` dans la page html.
 */
 
+.nav ul {
+    display: flex;
+}
 
 
 /*
@@ -47,12 +70,19 @@ aux éléments <nav>` et `<ul>` dans la page html.
   - Écrire une règle pour ajouter une marge intérieure de `20` pixels
 */
 
+nav li {
+    margin: 15px;
+    padding: 20px;
+}
 
 
 /*
 Écrire une règle pour que l'élément <h2> enfant de <nav> aient une marge intérieure de 15px.
 */
 
+nav h2 {
+    padding: 15px;
+}
 
 
 /*
@@ -62,6 +92,9 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 Écrire une règle pour changer la couleur des ancres (éléments `<a>`) en noir (`black` ou `rgb(0, 0, 0)`).
 */
 
+a {
+    color: rgb(0, 0, 0);
+}
 
 
 /*
@@ -69,14 +102,23 @@ Essayez de modifier les trois valeurs de `rgb(0, 0, 0)` et constatez les changem
 Écrire une règle pour que les images aient des coins arrondis de `10` pixels avec la propriété `border-radius`.
 */
 
+img {
+    width: 300px;
+    border-radius: 10px;
+}
 
 
 /*
 Écrire une règle pour que les sections titrées "Ville" et "Grands espaces" aient une couleur de fond égale à `rgb(4, 117, 186)`.
 */
 
+section {
+    background-color: rgb(4, 117, 186);
+}
+
 
 /*             BONUS !!                   */
+
 
 /*
 Écrire les règles nécessaires pour aligner au centre les paragraphes et les images.
@@ -86,12 +128,17 @@ Une façon de centrer les images est de les afficher en block:
 	margin-right: auto;
 */
 
+p {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto 0;
+}
 
 
 /*
 Écrire les règles nécessaires pour que les ancres dans le `<nav>` changent de couleur et ne soient plus soulignées quand le curseur de la souris passe dessus.
 Rechercher l'attribut "text-decoration"
 */
-
-
-
